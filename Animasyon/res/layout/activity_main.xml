@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+    <Button
+        android:id="@+id/btnScale"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Start for the Scale Animation" />
+
+    <Button
+        android:id="@+id/btnRotate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Start for the Rotate Animation" />
+
+    <Button
+        android:id="@+id/btnAlpha"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Start for the Alpha Animation" />
+
+    <Button
+        android:id="@+id/btnTranslate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Start for the Translate Animation" />
+
+    <Button
+        android:id="@+id/btnAllofThem"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Start for All of Them" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/radio" />
+	</LinearLayout>
+</LinearLayout>
+
